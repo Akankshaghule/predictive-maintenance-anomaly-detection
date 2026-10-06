@@ -1,0 +1,94 @@
+{
+  "naive (k=1, z=3)|val": {
+    "k": 1,
+    "z": 3.0,
+    "metrics": {
+      "precision": 0.5262697022767076,
+      "recall": 0.9693548387096774,
+      "f1": 0.6821793416572077,
+      "roc_auc": 0.9625193351520094,
+      "false_alarm_rate": 0.15722173786689916,
+      "healthy_false_alarm_rate": 0.011758941695247428,
+      "tp": 601,
+      "fp": 541,
+      "fn": 19,
+      "tn": 2900
+    },
+    "lead_time": {
+      "engines": 20,
+      "detected": 20,
+      "median_lead": 53.5,
+      "mean_lead": 49.65,
+      "min_lead": 19.0
+    }
+  },
+  "naive (k=1, z=3)|test": {
+    "k": 1,
+    "z": 3.0,
+    "metrics": {
+      "precision": 0.29595015576323985,
+      "recall": 0.858433734939759,
+      "f1": 0.44015444015444016,
+      "roc_auc": 0.9701605647133376,
+      "false_alarm_rate": 0.05714767363452461,
+      "healthy_false_alarm_rate": 0.013108198178182626,
+      "tp": 285,
+      "fp": 678,
+      "fn": 47,
+      "tn": 11186
+    },
+    "lead_time": {
+      "engines": 25,
+      "detected": 21,
+      "median_lead": 43.0,
+      "mean_lead": 45.666666666666664,
+      "min_lead": 20.0
+    }
+  },
+  "tuned|val": {
+    "k": 3,
+    "z": 3.0,
+    "metrics": {
+      "precision": 0.8578512396694215,
+      "recall": 0.8370967741935483,
+      "f1": 0.8473469387755102,
+      "roc_auc": 0.9840097121054459,
+      "false_alarm_rate": 0.024992734670154025,
+      "healthy_false_alarm_rate": 0.0,
+      "tp": 519,
+      "fp": 86,
+      "fn": 101,
+      "tn": 3355
+    },
+    "lead_time": {
+      "engines": 20,
+      "detected": 20,
+      "median_lead": 25.0,
+      "mean_lead": 26.15,
+      "min_lead": 12.0
+    }
+  },
+  "tuned|test": {
+    "k": 3,
+    "z": 3.0,
+    "metrics": {
+      "precision": 0.7627118644067796,
+      "recall": 0.5421686746987951,
+      "f1": 0.6338028169014085,
+      "roc_auc": 0.986073212269171,
+      "false_alarm_rate": 0.004720161834120027,
+      "healthy_false_alarm_rate": 0.0,
+      "tp": 180,
+      "fp": 56,
+      "fn": 152,
+      "tn": 11808
+    },
+    "lead_time": {
+      "engines": 25,
+      "detected": 15,
+      "median_lead": 23.0,
+      "mean_lead": 23.0,
+      "min_lead": 13.0
+    }
+  }
+}

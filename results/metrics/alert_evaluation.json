@@ -1,0 +1,24 @@
+{
+  "val": {
+    "engines": 20,
+    "engines_reaching_anomaly_zone": 20,
+    "warning_detected": 20,
+    "warning_median_lead": 47.5,
+    "critical_detected": 12,
+    "critical_median_lead": 12.0,
+    "alerts_total": 35,
+    "alerts_in_healthy_phase": 1,
+    "engines_with_healthy_phase_alert": 1
+  },
+  "test": {
+    "engines": 100,
+    "engines_reaching_anomaly_zone": 25,
+    "warning_detected": 24,
+    "warning_median_lead": 39.5,
+    "critical_detected": 5,
+    "critical_median_lead": 15.0,
+    "alerts_total": 39,
+    "alerts_in_healthy_phase": 4,
+    "engines_with_healthy_phase_alert": 3
+  }
+}
