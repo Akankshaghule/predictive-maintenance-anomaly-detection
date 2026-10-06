@@ -167,7 +167,7 @@ streamlit run dashboard/app.py
 
 ### Dashboard Preview
 
-![Dashboard Overview](docs/dashboard_overview.png)
+![Dashboard Overview](docs/output.png)
 
 ---
 
